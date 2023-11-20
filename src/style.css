@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root
+{
+    touch-action: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(at 50% 100%, #98652e 0%, #272730 40%, #171720 80%, #070710 100%);
+    font-family:'FuturaCondensedExtraBold.otf';
+}
+
+.canva{
+    touch-action: none;
+}
+
+.bg {
+    position: absolute;
+    background: radial-gradient(at 50% 100%, #c99c6c 0%, #272730 40%, #171720 80%, #070710 100%);
+  }
+
+  .h1{
+    background: linear-gradient( #007A5E,#9d0404, #cab70a   );
+  }
+
+  .label > div
+  {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+   color:white;
+  }
+
+ h3 {font-size: 1.2em;
+  letter-spacing: -0.5px;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: all;}
+
+  .footer
+  {
+    position: fixed;
+    bottom: 5%;
+    color: rgba(151, 174, 156, 0.376);
+    left: 3%;
+    /* transform: translateX(-50%); */
+    font-size: 1em;
+  }
+
+  .logo
+  {
+    position: fixed;
+    bottom: 20%;
+    right: 3%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .logo1
+  {
+    position: fixed;
+    bottom: 9%;
+    right: 2.5%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .logo2
+  {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .img
+  {
+    color: rgba(151, 174, 156, 0.376);
+  }
+
+  
